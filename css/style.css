@@ -1,0 +1,55 @@
+/* ---------- font links start ------------ */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+
+/* ------------- font links end --------------- */
+/* -------------- common css part start -------- */
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p,ul,ol{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ----------- common css part end ------------- */
+/* ------------ variable part start ------------ */
+:root{
+    --fontfamily:"Ubuntu", sans-serif;
+    --primarycolor:494C51;
+}
+
+/* ------------ variable part start ------------ */
+
+/* ---------------- navbar part start ----------------- */
+.mainMenu{
+    padding-top: 27px;
+    padding-bottom: 26px;
+}
+.logo{
+    padding: 0;
+    margin-right: 0;
+    width: 70px;
+}
+.la{
+    color: 494C51;
+}
+
+
+
+/* ---------------- navbar part end ----------------- */
