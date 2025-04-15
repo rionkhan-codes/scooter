@@ -5,23 +5,36 @@
 
 /* ------------- font links end --------------- */
 /* -------------- common css part start -------- */
-*{
+* {
     margin: 0;
     padding: 0;
 }
-img{
+
+img {
     width: 100%;
     max-width: 100%;
     vertical-align: middle;
 }
-a{
+
+a {
     text-decoration: none;
     display: inline-block;
 }
-ul,ol{
+
+ul,
+ol {
     list-style: none;
 }
-h1,h2,h3,h4,h5,h6,p,ul,ol{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
     margin: 0;
     padding: 0;
 }
@@ -29,27 +42,98 @@ h1,h2,h3,h4,h5,h6,p,ul,ol{
 
 /* ----------- common css part end ------------- */
 /* ------------ variable part start ------------ */
-:root{
-    --fontfamily:"Ubuntu", sans-serif;
-    --primarycolor:494C51;
+:root {
+    --fontfamily: "Ubuntu", sans-serif;
+    --primarycolor: #42454A;
 }
 
 /* ------------ variable part start ------------ */
 
 /* ---------------- navbar part start ----------------- */
-.mainMenu{
+.mainMenu {
     padding-top: 27px;
     padding-bottom: 26px;
+    border-bottom: 1px solid #EAE8F3;
 }
-.logo{
+
+.logo {
     padding: 0;
     margin-right: 0;
     width: 70px;
 }
-.la{
-    color: 494C51;
+
+.menuItems ul {
+    gap: 75px;
 }
 
+.menuItems ul li a {
+    font-size: 14px;
+    font-family: var(--fontfamily);
+    font-weight: 400;
+    color: var(--primarycolor) !important;
+    padding: 0 !important;
+}
 
+.signButtons ul {
+    gap: 24px;
+    display: flex;
+}
+
+.signButtons ul li a {
+    width: 106px;
+    height: 48px;
+    background: var(--primarycolor);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-family: var(--fontfamily);
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 2px;
+    transition: all linear .4s;
+
+}
+
+.signButtons ul li a:hover {
+    background: #fff;
+    /* transform: scale(1.1); */
+    color: var(--primarycolor);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
 
 /* ---------------- navbar part end ----------------- */
+/* ----------------- banner part start -------------- */
+#banner {
+    padding-top: 84px;
+}
+
+.bannerText h1 {
+    font-size: 90px;
+    font-family: var(--fontfamily);
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: var(--primarycolor);
+    width: 586px;
+}
+.bannerText h1 span{
+    font-weight: 700;
+}
+.line{
+    width: 335px;
+    height: 4px;
+    background: var(--primarycolor);
+    margin-top: 93px;
+}
+.bannerText p{
+    width: 353px;
+    font-size: 22px;
+    font-family: var(--fontfamily);
+    font-weight: 400;
+    color: var(--primarycolor);
+    letter-spacing: 1px;
+    margin-top: 62px;
+}
+
+/* ----------------- banner part end -------------- */
