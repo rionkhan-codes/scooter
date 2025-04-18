@@ -117,7 +117,7 @@ ol {
     position: absolute;
     top: 0;
     right: 0;
-    width: 855px;
+    width: 856px;
 }
 .bannerText h1 {
     font-size: 90px;
@@ -146,10 +146,7 @@ ol {
     margin-top: 62px;
 }
 /* From Uiverse.io by alexmaracinaru */ 
-.bannerText a{
-    margin-top: 62px;
-    
-}
+
 .cta {
     position: relative;
     margin: auto;
@@ -210,6 +207,7 @@ ol {
   }
   .bannerButtons{
     display: flex;
+    margin-top: 62px;
   }
   .bannerText h2{
     width: 87px;
@@ -218,8 +216,55 @@ ol {
     font-weight: 500;
     color: #414449;
     display: flex;
-    margin-top: 53px;
-    margin-left: 79px;
+    margin-left: 50px;
+    margin-right: 50px;
   }
-
+  .buttonImg{
+    width: 88px;
+    position: relative;
+  }
+  .btImg{
+    animation: ghoro infinite linear 10s;
+  }
+  @keyframes ghoro{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+  }
+  .playButton {
+    width: 12px;
+    height: 15px;
+    position: absolute;
+    top: 33%;
+    left: 39%;
+}
 /* ----------------- banner part end -------------- */
+
+
+/* ------------------ product part start -------- */
+#product{
+    padding-top: 127px;
+}
+.commonHead{
+    text-align: center;
+}
+.commonHead h2{
+    font-size: 50px;
+    font-family: var(--fontfamily);
+    font-weight: 700;
+    color: var(--primarycolor);
+    margin-bottom: 34px;
+}
+.commonHead p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--fontfamily);
+    color: var(--primarycolor);
+}
+
+
+
+/* ------------------ product part end -------- */
