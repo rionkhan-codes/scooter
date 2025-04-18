@@ -5,8 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-Scooter</title>
+    <!-- ------------ aos link ---------- -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- --------- bootstrap link -------------- -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+        <!-- -------- css links------------- -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/all.min.css">
 </head>
@@ -49,14 +54,16 @@
 <!-- --------- navbar part end --------------- -->
 <!-- -------- banner part start ------------ -->
 <section id="banner">
-    <div class="bannerImg">
+    <div data-aos="fade-down" class="bannerImg">
         <img src="images/banner_image.png" alt="bannerImg">
     </div>
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <div class="bannerText">
-                    <h1>LET'S RIDE 
+                <div  class="bannerText">
+                    <h1 data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500">LET'S RIDE 
                         <span>THE FUTURE.</span>
                     </h1>
                     <div class="line"></div>
@@ -111,40 +118,39 @@
                     <img src="images/image.png" alt="productImg">
                 </div>
             </div>
-
             <div class="col-lg-6">
-                <div class="productText">
-                    <div class="productText1">
+                <div class="productCol">
+                    <div class="productText">
                         <div class="productIcon">
                             <img src="images/Icon.png" alt="Icon">
                         </div>
                         <p>Lightweight aircraft grade aluminium frame</p>
                     </div>
-                    <div class="productText1">
+                    <div class="productText">
                         <div class="productIcon">
                             <img src="images/Icon.png" alt="Icon">
                         </div>
                         <p>Car grade lithium battery</p>
                     </div>
-                    <div class="productText1">
+                    <div class="productText">
                         <div class="productIcon">
                             <img src="images/Icon.png" alt="Icon">
                         </div>
                         <p>Self-balanced</p>
                     </div>
-                    <div class="productText1">
+                    <div class="productText">
                         <div class="productIcon">
                             <img src="images/Icon.png" alt="Icon">
                         </div>
                         <p>Plug n play</p>
                     </div>
-                    <div class="productText1">
+                    <div class="productText">
                         <div class="productIcon">
                             <img src="images/Icon.png" alt="Icon">
                         </div>
                         <p>Quick release adapter</p>
                     </div>
-                    <div class="productText1">
+                    <div class="productText">
                         <div class="productIcon">
                             <img src="images/Icon.png" alt="Icon">
                         </div>
@@ -152,19 +158,51 @@
                     </div>
                 </div>
             </div>
+         
         </div>
     </div>
 </section>
 
 
   <!-- ---------- product part end --------------- -->
+<!-- --------- motor part start ----------- -->
+<section id="motor">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="commonHead">
+                    <h2>High Efficiency Motor</h2>
+                    <p>More torque for powerful riding with 22% maximum hill climbing capability.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="motorImg">
+                    <img src="images/Efficiency.png" alt="motor">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- --------- motor part end ----------- -->
 
 
+
+<!-- ---------- scripts js links -------------- -->
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous">
     </script>
+
+<!-- ---------- custom js link ---------- -->
+ <script src="js/script.js"></script>
+
 
 </body>
 

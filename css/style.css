@@ -264,13 +264,37 @@ ol {
     font-family: var(--fontfamily);
     color: var(--primarycolor);
 }
+.productImg{
+    margin-top: 21px;
+}
 .productIcon{
     width: 49px;
 }
-.productText1{
-    display: flex;
+.productCol{
     margin-top: 143px;
+}
+.productText{
+    display: flex;
+    margin-bottom: 34px;
     margin-left: 177px;
+    align-items: center;
+    gap: 18px;
+}
+.productText p{
+    font-size: 20px;
+    font-family: var(--fontfamily);
+    font-weight: 400;
+    color: var(--primarycolor);
+}
+/* ------------------ product part end -------- */
+/* -------------- motor part start ------------ */
+#motor{
+    padding-top: 126px;
+}
+.motorImg{
+    margin-top: 49px;
 }
 
-/* ------------------ product part end -------- */
+
+
+/* -------------- motor part end ------------ */
