@@ -264,7 +264,13 @@ ol {
     font-family: var(--fontfamily);
     color: var(--primarycolor);
 }
-
-
+.productIcon{
+    width: 49px;
+}
+.productText1{
+    display: flex;
+    margin-top: 143px;
+    margin-left: 177px;
+}
 
 /* ------------------ product part end -------- */
