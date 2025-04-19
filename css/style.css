@@ -242,6 +242,42 @@ ol {
     left: 39%;
 }
 /* ----------------- banner part end -------------- */
+/* ----------- counterplugin part start ---------- */
+.counterPart{
+    margin-top: 209px;
+    width: 174px;
+    height: 137px;
+    background: #fff;
+    border: 0.66px solid #F4F4F4;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.counterPart h2{
+    font-size: 18px;
+    font-family: var(--fontfamily);
+    font-weight: 700;
+    color: var(--primarycolor);
+
+}
+.counterPart h2 span{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: var(--fontfamily);
+    color: var(--primarycolor);
+}
+.counterPart p{
+    font-size: 13px;
+    font-family: var(--fontfamily);
+    font-weight: 400;
+    color: var(--primarycolor);
+    margin-top: 18px;
+}
+
+/* ----------- counterplugin part end ---------- */
+
 
 
 /* ------------------ product part start -------- */
