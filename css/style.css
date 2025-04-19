@@ -278,8 +278,6 @@ ol {
 
 /* ----------- counterplugin part end ---------- */
 
-
-
 /* ------------------ product part start -------- */
 #product{
     padding-top: 127px;
@@ -331,6 +329,95 @@ ol {
     margin-top: 49px;
 }
 
-
-
 /* -------------- motor part end ------------ */
+/* --------- Accessories part start -------- */
+#accessories{
+    padding-top: 315px;
+}
+.accessoriesText h2{
+    font-size: 50px;
+    font-family: var(--fontfamily);
+    font-weight: 700;
+    color: var(--primarycolor);
+    margin-top: 160px;
+    margin-bottom: 33px;
+
+}
+.accessoriesText .productText{
+    margin-left: 0;
+    
+}
+.accessoriesImg{
+    margin-top: 112px;
+    width: 878px;
+}
+.shoppingPart{
+    text-align: right;
+    margin-bottom: 74px;
+}
+.shoppingPart .productText{
+    margin-left: 0;
+    
+}
+.comingSoon{
+    width: 570px;
+    height: 94px;
+    border-radius: 10px;
+    border: 2px solid var(--primarycolor);
+    margin-top: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.comingSoon h2{
+    font-size: 30px;
+    font-family: var(--fontfamily);
+    font-weight: 700;
+    color: var(--primarycolor);
+}
+
+/* --------- Accessories part end -------- */
+/* ----------- gallery part start -------  */
+#gallery{
+    padding-top: 127px;
+}
+.scooterImg{
+    width: 633px;
+    margin-top: 302px;
+    margin-bottom: 55px;
+}
+
+.scooterText a{
+    width: 570px;
+    height: 94px;
+    border-radius: 10px;
+    border: 2px solid var(--primarycolor);
+    font-size: 30px;
+    font-family: var(--fontfamily);
+    font-weight: 700;
+    color: var(--primarycolor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 27px;
+}
+.qualityPart{
+    margin-top: 112px;
+    margin-left: 74px;
+}
+.qualityImg{
+    width: 633px;
+
+}
+.qualityImg2{
+    width: 633px;
+    margin-top: 96px;
+
+}
+/* ----------- gallery part end ------- */
+/* ------------- color part start --------- */
+#color{
+    padding-top: 128px;
+}
+/* ------------- color part end --------- */
