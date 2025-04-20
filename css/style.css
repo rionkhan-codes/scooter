@@ -345,8 +345,9 @@ ol {
 }
 .accessoriesText .productText{
     margin-left: 0;
-    
+   
 }
+
 .accessoriesImg{
     margin-top: 112px;
     width: 878px;
@@ -357,6 +358,7 @@ ol {
 }
 .shoppingPart .productText{
     margin-left: 0;
+   
     
 }
 .comingSoon{
@@ -421,6 +423,69 @@ ol {
     padding-top: 128px;
 }
 /* ------------- color part end --------- */
+/* ------------- testimonial part start ---------- */
+#testimonial{
+    background: #FAFAFA;
+    margin-top: 344px;
+    padding-top: 78px;
+    padding-bottom: 167px;
+}
+.reviewPart{
+    width: 360px;
+    height: 366px;
+    background: #fff;
+    border: 1px solid #D8D8D8;
+    margin-top: 41px;
+}
+.reviewPart .rating{
+    display: flex;
+    gap: 2px;
+    color: #FE8B75;
+    justify-content: center;
+    padding-top: 52px;
+    margin-bottom: 12px;
+    
+}
+
+.reviewPart p{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+    font-family: var(--fontfamily);
+    font-weight: 400;
+    color: var(--primarycolor);
+    
+}
+.reviewProfile{
+    display: flex;
+    justify-content: center;
+    margin-top: 47px;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.reviewText h2{
+    font-size: 16px;
+    font-family: var(--fontfamily);
+    font-weight: 500;
+    color: var(--primarycolor);
+    margin-bottom: 4px;
+}
+.reviewText p{
+    font-size: 14px;
+    font-family: var(--fontfamily);
+    font-weight: 400;
+    color: var(--primarycolor);
+    text-align: start;
+}
+
+
+ 
+    
+
+
+/* ------------- testimonial part end ---------- */
 
 /* ------------ subscribe part start --------- */
 #subscribe{
