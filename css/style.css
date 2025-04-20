@@ -586,6 +586,12 @@ background: #706D54;
 #endMenu{
     background: #42454A;
     margin-top: 127px;
+    position: relative;
+}
+.endMenuImg{
+    position: absolute;
+    left: 0;
+    top: -170px;
 }
 .endMenuItems{
     gap: 105px;
