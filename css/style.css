@@ -343,23 +343,30 @@ ol {
     margin-bottom: 33px;
 
 }
-.accessoriesText .productText{
+.accessoriesPart .productText{
     margin-left: 0;
-   
+}
+.accessoriesPart .accessoriesText{
+    text-align: start;
+}
+.shoppingPart .accessoriesText{
+    text-align: end;
 }
 
 .accessoriesImg{
     margin-top: 112px;
     width: 878px;
 }
+.ShoppingImg{
+    margin-top: 112px;
+
+}
 .shoppingPart{
-    text-align: right;
     margin-bottom: 74px;
 }
 .shoppingPart .productText{
-    margin-left: 0;
-   
-    
+    margin-left:  289px; 
+  
 }
 .comingSoon{
     width: 570px;
@@ -452,16 +459,22 @@ ol {
     margin-top: 344px;
     padding-top: 78px;
     padding-bottom: 167px;
+    position: relative;
 }
 .reviewText{
     width: 360px;
+    height: 370px;
     padding-top: 52px !important;
     padding-left: 34px !important;
     padding-right: 22px !important;
     padding-bottom: 51px !important;
     border: 1px solid #D8D8D8;
     margin-top: 41px;
+    transition: all linear .4s;
 
+}
+.reviewText:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .reviewText ul{
     display: flex;
@@ -499,8 +512,33 @@ ol {
     margin-bottom: 0;
 
 }
-    
+.arr{
+    width: 42px;
+    height: 42px;
+    border: 1px solid #6DE1D2;
+    border-radius: 50%;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    transition: all linear .4s;
+    color: #fff;
+    background: #42454A;
 
+}
+.arr:hover{
+    background: #F4F8D3;
+    color: #4E1F00;
+}
+.rr {
+    position: absolute;
+    bottom: -75px;
+    left: 44%;
+}
+.lr {
+    position: absolute;
+    left: 49%;
+    bottom: -75px;
+}
 
 /* ------------- testimonial part end ---------- */
 

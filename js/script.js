@@ -26,7 +26,10 @@ $('.slider-for').slick({
 $('.reviewPart').slick({
   infinite: true,
   slidesToShow: 3,
-  slidesToScroll: 3,
-  arrows:true
+  slidesToScroll: 1,
+  arrows:true,
+  prevArrow:'<i class="fa-solid arr rr fa-arrow-left"></i>',
+  nextArrow:'<i class="fa-solid arr lr fa-arrow-right"></i>',
+  
 });
 
