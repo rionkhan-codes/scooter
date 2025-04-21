@@ -1,0 +1,51 @@
+/* -------- extra small device start ------------- */
+@media (min-width: 0px) and (max-width: 575.98px) { 
+/* ---------- navbar part start ---------- */
+.logo {
+	width: 35px;
+}
+.mainMenu {
+	padding-top: 17px;
+	padding-bottom: 12px;
+}
+.navbar-toggler {
+	padding: 3px 3px;
+}
+.menuItems {
+	margin-top: 30px;
+    
+}
+.menuItems ul{
+    align-items: center;
+    gap: 40px;
+}
+.signButtons{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.signButtons ul li a {
+	width: 71px;
+	height: 36px;
+	border-radius: 30px;
+	font-size: 10px;
+        
+}
+    
+	
+
+/* ---------- navbar part end ---------- */
+
+
+
+
+
+ }
+
+
+
+
+
+
+/* -------- extra small device end ------------- */

@@ -1,4 +1,11 @@
-AOS.init();
+// Screen width check
+if (window.innerWidth < 576) {
+  AOS.init({
+    disable: true
+  });
+} else {
+  AOS.init(); // normal for desktop
+}
 // ---------- counter plgin part start ----------
 $('.counter').counterUp({
     delay: 50,

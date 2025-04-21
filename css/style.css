@@ -94,7 +94,7 @@ ol {
     font-size: 14px;
     font-family: var(--fontfamily);
     font-weight: 400;
-    color: #fff;
+    color: #fff !important;
     letter-spacing: 2px;
     transition: all linear .4s;
 
@@ -102,8 +102,6 @@ ol {
 
 .signButtons ul li a:hover {
     background: #fff;
-    /* transform: scale(1.1); */
-    color: var(--primarycolor);
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
