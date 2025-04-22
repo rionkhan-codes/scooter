@@ -89,7 +89,7 @@
 /* ------- banner part end ---------- */
 /* ---------- counter plugin part start ----------- */
 .counterPart {
-	margin-top: 37px;
+	margin-top: 10px;
 	width: 108px;
 	height: 97px;
 }
@@ -217,17 +217,1000 @@
 #testimonial {
 	margin-top: 23px;
 	padding-top: 11px;
+	padding-bottom: 100px;
 
 }
+.reviewText {
+	width: 100%;
+	height: 290px;
+	padding-top: 18px !important;
+	padding-bottom: 22px !important;
+	margin-top: 10px;
+
+}
+.reviewText p {
+	font-size: 15px;
+	margin-top: 12px;
+	margin-bottom: 20px;
+	
+}
+.lr {
+	left: 60%;
+	bottom: -65px;
+
+}
+.rr {
+	bottom: -65px;
+	left: 26%;
+}
 /* ---------- testimonial part start ----------- */
+/* --------- subscribe part start ---------- */
+#subscribe {
+	padding-top: 15px;
+}
+.inputMail {
+	margin-top: 20px;
+}
+.inputMail input {
+	width: 100%;
+	height: 56px;
+	margin-bottom: 15px;
+}
+.inputMail button {
+	width: 163px;
+	height: 70px;
+	font-size: 20px;
 
-
+	/* --------- subscribe part end ---------- */
+	/*---------- end menu start ---------  */
+}
+.endMenuImg {
+	position: static;
 
  }
+ #endMenu {
+	margin-top: 40px;
 
+}
+.endMenuItems {
+	gap: 19px;
+	text-align: center;
+	margin: 0 auto;
+}
+.menuCol h2 {
+	margin-top: 39px;
+	font-size: 15px;
+	margin-bottom: 15px;
 
+}
+.menuCol ul li a {
+	margin-bottom: 15px;
+	font-size: 11px;
 
+}
 
-
-
+}
+/* ---------- end menu end --------- */
 /* -------- extra small device end ------------- */
+
+/* ----------- small device start ----------- */
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	/* ---------- navbar part start ---------- */
+	.logo {
+		width: 35px;
+	}
+	.mainMenu {
+		padding-top: 17px;
+		padding-bottom: 12px;
+	}
+	.navbar-toggler {
+		padding: 3px 3px;
+	}
+	.menuItems {
+		margin-top: 30px;
+		
+	}
+	.menuItems ul{
+		align-items: center;
+		gap: 40px;
+	}
+	.signButtons{
+		margin-top: 30px;
+		display: flex;
+		justify-content: center;
+	}
+	
+	.signButtons ul li a {
+		width: 71px;
+		height: 36px;
+		border-radius: 30px;
+		font-size: 10px;
+			
+	}
+	/* ---------- navbar part end ---------- */
+	/* ------- banner part start ---------- */
+	.bannerImg {
+		position: static;
+		width: 100%;
+	}
+	#banner {
+		padding-top: 23px;
+		
+	}
+	.bannerText h1 {
+		font-size: 37px;
+		letter-spacing: 3px;
+		width: 100%;
+	}
+	.line {
+		width: 92%;
+		margin-top: 23px;
+	}
+	.bannerText p {
+		width: 100%;
+		font-size: 17px;
+		letter-spacing: 1px;
+		margin-top: 24px;
+	}
+	.bannerButtons {
+		display: flex;
+		margin-top: 18px;
+		flex-wrap: wrap;
+	}
+	.cta::before {
+		content: "";
+		top: 1px;
+		width: 49px;
+		height: 44px;
+		
+	}
+	.cta svg {
+		top: -4px;
+		margin-left: 5px;
+	}
+	.cta span {
+		font-size: 15px;
+		margin-left: 13px;
+	}
+	.bannerText h2 {
+		width: 87px;
+		font-size: 15px;
+		margin-left: 12px;
+		margin-right: 51px;
+		margin-top: 3pxpx;
+	}
+	
+	
+	/* ------- banner part end ---------- */
+	/* ---------- counter plugin part start ----------- */
+	.counterPart {
+		margin-top: 15px;
+		width: 108px;
+		height: 97px;
+	}
+	.counterPart h2 {
+		font-size: 15px;
+	}
+	.counterPart h2 span {
+		font-size: 26px;
+	
+	}
+	.counterPart p {
+		font-size: 11px;
+		margin-top: 11px;
+	}
+
+	
+	/* ---------- counter plugin part end ----------- */
+	/* -------- product part start ---------- */
+	#product {
+		padding-top: 25px;
+	}
+	.commonHead {
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	.commonHead h2 {
+		font-size: 31px;
+		margin-bottom: 16px;
+	}
+	.commonHead p {
+		font-size: 15px;
+	}
+	.productImg {
+		margin-top: -5px;
+	}
+	.productCol {
+		margin-top: 5px;
+	}.productCol {
+		margin-top: -5px;
+	}
+	.productText {
+		margin-bottom: 17px;
+		margin-left: 37px;
+		gap: 15px;
+	}
+	.productText p {
+		font-size: 15px;
+	
+	}
+	
+	/* -------- product part start ---------- */
+	/* ----------- motor part start -------- */
+	#motor {
+		padding-top: 15px;
+	}
+	/* ----------- motor part end -------- */
+	/* ------------ accesories part start ----------- */
+	#accessories {
+		padding-top: 15px;
+	}
+	.accessoriesText h2 {
+		font-size: 25px;
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+	.accessoriesImg {
+		margin-top: 10px;
+		width: 100%;
+	}
+	.ShoppingImg {
+		margin-top: 25px;
+	}
+	.shoppingPart .accessoriesText {
+		text-align: center;
+	}
+	.shoppingPart .productText {
+		margin-left: 21px;
+	}
+	.comingSoon {
+		width: 70%;
+		height: 65px;
+		margin-top: -40px;
+	}
+	.comingSoon h2 {
+		font-size: 15px;
+	}
+	/* ------------ accesories part end ----------- */
+	/* ----------- gallery part start ----------- */
+	#gallery {
+		padding-top: 25px;
+	}
+	.scooterImg {
+		width: 100%;
+		margin-top: 15px;
+		margin-bottom: 30px;
+	}
+	.scooterText a {
+		width: 70%;
+		height: 65px;
+		font-size: 20px;
+		margin: 20px auto;
+	}
+	.qualityPart {
+		margin-top: 5px;
+		margin-left: 69px;
+	}
+	.qualityImg {
+		width: 100%;
+	}
+	.qualityImg2 {
+		width: 100%;
+		margin-top: 30px;
+	}
+	
+	/* ----------- gallery part end ----------- */
+	/*  ------------ color part start ----------- */
+	#color {
+		padding-top: 25px;
+	}
+	.mainShow {
+		margin-top: 15px;
+		width: 100%;
+	}
+	.mySlider {
+		position: static;
+		width: 100%;
+	}
+	/*  ------------ color part end ----------- */
+	/* ---------- testimonial part start ----------- */
+	#testimonial {
+		margin-top: 23px;
+		padding-top: 11px;
+		padding-bottom: 100px;
+		margin-bottom: 20px;
+	
+	}
+	.reviewText {
+		width: 100%;
+		height: 235px;
+		padding-top: 18px !important;
+		padding-bottom: 22px !important;
+		margin-top: 10px;
+	
+	}
+	.reviewText p {
+		font-size: 15px;
+		margin-top: 12px;
+		margin-bottom: 20px;
+		
+	}
+	.lr {
+		left: 60%;
+		bottom: -65px;
+	
+	}
+	.rr {
+		bottom: -65px;
+		left: 26%;
+	}
+	/* ---------- testimonial part start ----------- */
+	/* --------- subscribe part start ---------- */
+	#subscribe {
+		padding-top: 15px;
+	}
+	.inputMail {
+		margin-top: 20px;
+	}
+	.inputMail input {
+		width: 100%;
+		height: 56px;
+		margin-bottom: 15px;
+	}
+	.inputMail button {
+		width: 163px;
+		height: 70px;
+		font-size: 20px;
+	
+		/* --------- subscribe part end ---------- */
+		/*---------- end menu start ---------  */
+	}
+	.endMenuImg {
+		position: static;
+	
+	 }
+	 #endMenu {
+		margin-top: 40px;
+	
+	}
+	.endMenuItems {
+		gap: 80px;
+		text-align: start;
+		margin: 0 auto;
+	}
+	.menuCol h2 {
+		margin-top: 39px;
+		font-size: 20px;
+		margin-bottom: 15px;
+	}
+	.menuCol ul li a {
+		margin-bottom: 15px;
+		font-size: 15px;
+	}
+	
+	}
+	/* ---------- end menu end --------- */
+
+/* ----------- small device end ----------- */
+
+
+
+/*  ------------ medium device start ---------- */
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	/* ---------- navbar part start ---------- */
+	.logo {
+		width: 40px;
+	}
+	.mainMenu {
+		padding-top: 17px;
+		padding-bottom: 12px;
+	}
+	.navbar-toggler {
+		padding: 3px 3px;
+	}
+	.menuItems {
+		margin-top: 30px;
+		
+	}
+	.menuItems ul{
+		align-items: center;
+		gap: 40px;
+	}
+	.signButtons{
+		margin-top: 30px;
+		display: flex;
+		justify-content: center;
+	}
+	
+	.signButtons ul li a {
+		width: 71px;
+		height: 36px;
+		border-radius: 30px;
+		font-size: 10px;
+			
+	}
+	/* ---------- navbar part end ---------- */
+	/* ------- banner part start ---------- */
+	.bannerImg {
+		position: static;
+		width: 100%;
+	}
+	#banner {
+		padding-top: 23px;
+		
+	}
+	.bannerText h1 {
+		font-size: 39px;
+		letter-spacing: 3px;
+		width: 285px;
+	}
+	.line {
+		width: 92%;
+		margin-top: 30px;
+	}
+	.bannerText p {
+		width: 233px;
+		font-size: 20px;
+		letter-spacing: 1px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	.bannerButtons {
+		display: flex;
+		margin-top: 18px;
+		gap: 25px;
+
+	}
+	.cta::before {
+		content: "";
+		top: 1px;
+		width: 49px;
+		height: 44px;
+		
+	}
+	.cta svg {
+		top: -4px;
+		margin-left: 5px;
+	}
+	.cta span {
+		font-size: 15px;
+		margin-left: 13px;
+	}
+	.bannerText h2 {
+		width: 87px;
+		font-size: 15px;
+		margin-left: 12px;
+		margin-right: 51px;
+		margin-top: 3pxpx;
+	}
+	
+	
+	/* ------- banner part end ---------- */
+	/* ---------- counter plugin part start ----------- */
+	.counterPart {
+		margin-top: 15px;
+		width: 108px;
+		height: 97px;
+	}
+	.counterPart h2 {
+		font-size: 15px;
+	}
+	.counterPart h2 span {
+		font-size: 26px;
+	
+	}
+	.counterPart p {
+		font-size: 11px;
+		margin-top: 11px;
+	}
+
+	
+	/* ---------- counter plugin part end ----------- */
+	/* -------- product part start ---------- */
+	#product {
+		padding-top: 25px;
+	}
+	.commonHead {
+		text-align: center;
+		margin-bottom: 15px;
+		margin-top: 25px;
+	}
+	.commonHead h2 {
+		font-size: 31px;
+		margin-bottom: 16px;
+	}
+	.commonHead p {
+		font-size: 15px;
+	}
+	.productImg {
+		margin-top: -5px;
+	}
+	.productCol {
+		margin-top: 5px;
+	}.productCol {
+		margin-top: -5px;
+	}
+	.productText {
+		margin-bottom: 17px;
+		margin-left: 37px;
+		gap: 15px;
+	}
+	.productText p {
+		font-size: 15px;
+	
+	}
+	
+	/* -------- product part start ---------- */
+	/* ----------- motor part start -------- */
+	#motor {
+		padding-top: 15px;
+	}
+	/* ----------- motor part end -------- */
+	/* ------------ accesories part start ----------- */
+	#accessories {
+		padding-top: 15px;
+	}
+	.accessoriesText h2 {
+		font-size: 25px;
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+	.accessoriesImg {
+		margin-top: 10px;
+		width: 100%;
+	}
+	.ShoppingImg {
+		margin-top: 25px;
+	}
+	.shoppingPart .accessoriesText {
+		text-align: center;
+	}
+	.shoppingPart .productText {
+		margin-left: 21px;
+	}
+	.comingSoon {
+		width: 70%;
+		height: 65px;
+		margin-top: -40px;
+	}
+	.comingSoon h2 {
+		font-size: 15px;
+	}
+	/* ------------ accesories part end ----------- */
+	/* ----------- gallery part start ----------- */
+	#gallery {
+		padding-top: 25px;
+	}
+	.scooterImg {
+		width: 100%;
+		margin-top: 15px;
+		margin-bottom: 30px;
+	}
+	.scooterText a {
+		width: 70%;
+		height: 65px;
+		font-size: 20px;
+		margin: 20px auto;
+	}
+	.qualityPart {
+		margin-top: 5px;
+		margin-left: 69px;
+	}
+	.qualityImg {
+		width: 100%;
+	}
+	.qualityImg2 {
+		width: 100%;
+		margin-top: 30px;
+	}
+	
+	/* ----------- gallery part end ----------- */
+	/*  ------------ color part start ----------- */
+	#color {
+		padding-top: 25px;
+	}
+	.mainShow {
+		margin-top: 15px;
+		width: 100%;
+	}
+	.mySlider {
+		position: static;
+		width: 100%;
+	}
+	/*  ------------ color part end ----------- */
+	/* ---------- testimonial part start ----------- */
+	#testimonial {
+		margin-top: 23px;
+		padding-top: 11px;
+		padding-bottom: 100px;
+		margin-bottom: 20px;
+	
+	}
+	.reviewText {
+		width: 100%;
+		height: 235px;
+		padding-top: 18px !important;
+		padding-bottom: 22px !important;
+		margin-top: 10px;
+	
+	}
+	.reviewText p {
+		font-size: 15px;
+		margin-top: 12px;
+		margin-bottom: 20px;
+		
+	}
+	.lr {
+		left: 60%;
+		bottom: -65px;
+	
+	}
+	.rr {
+		bottom: -65px;
+		left: 26%;
+	}
+	/* ---------- testimonial part start ----------- */
+	/* --------- subscribe part start ---------- */
+	#subscribe {
+		padding-top: 15px;
+	}
+	.inputMail {
+		margin-top: 20px;
+	}
+	.inputMail input {
+		width: 100%;
+		height: 56px;
+		margin-bottom: 15px;
+	}
+	.inputMail button {
+		width: 163px;
+		height: 70px;
+		font-size: 20px;
+	
+		/* --------- subscribe part end ---------- */
+		/*---------- end menu start ---------  */
+	}
+	.endMenuImg {
+		position: static;
+	
+	 }
+	 .endMenuImg img{
+		width: 50%;
+	 }
+	 #endMenu {
+		margin-top: 40px;
+	
+	}
+	.endMenuItems {
+		gap: 80px;
+		text-align: start;
+		margin: 0 auto;
+	}
+	.menuCol h2 {
+		margin-top: 39px;
+		font-size: 20px;
+		margin-bottom: 15px;
+	}
+	.menuCol ul li a {
+		margin-bottom: 15px;
+		font-size: 15px;
+	}
+	
+	}
+	/* ---------- end menu end --------- */
+
+
+/*  ------------ medium device start ---------- */
+
+/* ----------- large device start ----------- */
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	/* ---------- navbar part start ---------- */
+	.logo {
+		width: 40px;
+	}
+	.mainMenu {
+		padding-top: 25px;
+		padding-bottom: 23px;
+	}
+	.navbar-toggler {
+		padding: 3px 3px;
+	}
+	.menuItems {
+		margin-top: -36px;
+	}
+	.menuItems ul{
+		align-items: center;
+		gap: 40px;
+	}
+	.signButtons{
+		margin-top: 30px;
+		display: flex;
+		justify-content: center;
+	}
+	
+	.signButtons ul li a {
+		width: 71px;
+		height: 36px;
+		border-radius: 30px;
+		font-size: 10px;
+			
+	}
+	/* ---------- navbar part end ---------- */
+	/* ------- banner part start ---------- */
+	.bannerImg {
+		position: static;
+		width: 100%;
+	}
+	#banner {
+		padding-top: 23px;
+		
+	}
+	.bannerText h1 {
+		font-size: 39px;
+		letter-spacing: 3px;
+		width: 285px;
+	}
+	.line {
+		width: 92%;
+		margin-top: 30px;
+	}
+	.bannerText p {
+		width: 233px;
+		font-size: 20px;
+		letter-spacing: 1px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	.bannerButtons {
+		display: flex;
+		margin-top: 18px;
+		gap: 25px;
+
+	}
+	.cta::before {
+		content: "";
+		top: 1px;
+		width: 49px;
+		height: 44px;
+		
+	}
+	.cta svg {
+		top: -4px;
+		margin-left: 5px;
+	}
+	.cta span {
+		font-size: 15px;
+		margin-left: 13px;
+	}
+	.bannerText h2 {
+		width: 87px;
+		font-size: 15px;
+		margin-left: 12px;
+		margin-right: 51px;
+		margin-top: 3pxpx;
+	}
+	
+	
+	/* ------- banner part end ---------- */
+	/* ---------- counter plugin part start ----------- */
+	.counterPart {
+		margin-top: 15px;
+		width: 108px;
+		height: 97px;
+	}
+	.counterPart h2 {
+		font-size: 15px;
+	}
+	.counterPart h2 span {
+		font-size: 26px;
+	
+	}
+	.counterPart p {
+		font-size: 11px;
+		margin-top: 11px;
+	}
+
+	
+	/* ---------- counter plugin part end ----------- */
+	/* -------- product part start ---------- */
+	#product {
+		padding-top: 25px;
+	}
+	.commonHead {
+		text-align: center;
+		margin-bottom: 15px;
+		margin-top: 25px;
+	}
+	.commonHead h2 {
+		font-size: 31px;
+		margin-bottom: 16px;
+	}
+	.commonHead p {
+		font-size: 15px;
+	}
+	.productImg {
+		margin-top: -5px;
+	}
+	.productCol {
+		margin-top: 5px;
+	}.productCol {
+		margin-top: -5px;
+	}
+	.productText {
+		margin-bottom: 17px;
+		margin-left: 37px;
+		gap: 15px;
+	}
+	.productText p {
+		font-size: 15px;
+	
+	}
+	
+	/* -------- product part start ---------- */
+	/* ----------- motor part start -------- */
+	#motor {
+		padding-top: 15px;
+	}
+	/* ----------- motor part end -------- */
+	/* ------------ accesories part start ----------- */
+	#accessories {
+		padding-top: 15px;
+	}
+	.accessoriesText h2 {
+		font-size: 25px;
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+	.accessoriesImg {
+		margin-top: 10px;
+		width: 100%;
+	}
+	.ShoppingImg {
+		margin-top: 25px;
+	}
+	.shoppingPart .accessoriesText {
+		text-align: center;
+	}
+	.shoppingPart .productText {
+		margin-left: 21px;
+	}
+	.comingSoon {
+		width: 70%;
+		height: 65px;
+		margin-top: -40px;
+	}
+	.comingSoon h2 {
+		font-size: 15px;
+	}
+	/* ------------ accesories part end ----------- */
+	/* ----------- gallery part start ----------- */
+	#gallery {
+		padding-top: 25px;
+	}
+	.scooterImg {
+		width: 100%;
+		margin-top: 15px;
+		margin-bottom: 30px;
+	}
+	.scooterText a {
+		width: 70%;
+		height: 65px;
+		font-size: 20px;
+		margin: 20px auto;
+	}
+	.qualityPart {
+		margin-top: 5px;
+		margin-left: 69px;
+	}
+	.qualityImg {
+		width: 100%;
+	}
+	.qualityImg2 {
+		width: 100%;
+		margin-top: 30px;
+	}
+	
+	/* ----------- gallery part end ----------- */
+	/*  ------------ color part start ----------- */
+	#color {
+		padding-top: 25px;
+	}
+	.mainShow {
+		margin-top: 15px;
+		width: 100%;
+	}
+	.mySlider {
+		position: static;
+		width: 100%;
+	}
+	/*  ------------ color part end ----------- */
+	/* ---------- testimonial part start ----------- */
+	#testimonial {
+		margin-top: 23px;
+		padding-top: 11px;
+		padding-bottom: 100px;
+		margin-bottom: 20px;
+	
+	}
+	.reviewText {
+		width: 100%;
+		height: 275px;
+		padding-top: 18px !important;
+		padding-bottom: 22px !important;
+		margin-top: 10px;
+	
+	}
+	.reviewText p {
+		font-size: 15px;
+		margin-top: 12px;
+		margin-bottom: 20px;
+		
+	}
+	.lr {
+		left: 55%;
+		bottom: -65px;
+	
+	}
+	.rr {
+		bottom: -65px;
+		left: 42%;
+	}
+	/* ---------- testimonial part start ----------- */
+	/* --------- subscribe part start ---------- */
+	#subscribe {
+		padding-top: 15px;
+	}
+	.inputMail {
+		margin-top: 20px;
+	}
+	.inputMail input {
+		width: 35%;
+		height: 56px;
+		margin-bottom: 15px;
+	}
+	.inputMail button {
+		width: 163px;
+		height: 70px;
+		font-size: 20px;
+	
+		/* --------- subscribe part end ---------- */
+		/*---------- end menu start ---------  */
+	}
+	.endMenuImg {
+		position: static;
+	
+	 }
+	 .endMenuImg img{
+		width: 40%;
+	 }
+	 #endMenu {
+		margin-top: 40px;
+	
+	}
+	.endMenuItems {
+		gap: 80px;
+		text-align: start;
+		margin: 0 auto;
+	}
+	.menuCol h2 {
+		margin-top: 39px;
+		font-size: 20px;
+		margin-bottom: 15px;
+	}
+	.menuCol ul li a {
+		margin-bottom: 15px;
+		font-size: 15px;
+	}
+	
+	}
+	/* ---------- end menu end --------- */
+
+
+
+
+
+
+/* ----------- large device end ----------- */
